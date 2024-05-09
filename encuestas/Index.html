@@ -1,0 +1,126 @@
+<html>
+<head>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D8AE7E;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #FFF2D7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+font-family: 'Roboto', sans-serif; 
+    margin-top: 0;
+}
+
+input[type="radio"],
+input[type="button"] {
+    margin-right: 10px;
+border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] + label {
+    margin-right: 20px;
+}
+
+img {
+    margin-bottom: 20px;
+  border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #B99470;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FFE0B5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Divertido</title>
+    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-32">
+		<meta http-equiv="X-UA-Compatible" content="It-edge">
+		<title>Encuesta</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+<div class="container">
+ <center><h1>Test  </h1></center><br>
+<form>
+<br>
+    <center><img src="https://scontent.fpbc1-1.fna.fbcdn.net/v/t39.30808-6/302420635_392996076312640_2929099382273314247_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGYFfsa-Q7KpwaQXE1IqfPjn92kZToXmZqf3aRlOheZmkDvDbPhz9GMF8bYkR5auJ8ZGTS26EC1KAOS138WAj_m&_nc_ohc=6LPBxwMOlc0Q7kNvgH2NtqS&_nc_ht=scontent.fpbc1-1.fna&oh=00_AfDRYrE0UPeF3gYTwRlLI0s58L_psvO3HHIBVu4bW9n12Q&oe=6641E59E" height="50%"><br>
+        <!-- src="Huevo.jpg"-->
+        <label>¿Qué fue primero , el huevo o la gallina?</label></center><br><br>
+        <input type="radio" name="p1" value="huevo">El huevo 🥚 <br>
+        <input type="radio" name="p1" value="gallina">La gallina 🐔<br><br>
+	</form>
+<br>
+ 	<form>
+         <center><img src="COCA-PEPSI.jpg" height="300"><br>
+             <label>¿Coca-cola o Pepsi? 🥂</label></center><br><br>
+        <input type="radio" name="p2" value="coca">Coca-cola <br>
+        <input type="radio" name="p2" value="pepsi">Pepsi<br><br>
+	</form>
+<br>
+	<form>
+         <center><img src="TK.jpg" height="300"><br>
+     
+        <label>¿Tayor Swift o Kanye West?</label>   </center><br><br>
+        <input type="radio" name="p3" value="Tayor">Tayor Swift <br>
+        <input type="radio" name="p3" value="Kanye">Kanye West <br><br>
+	</form>
+<br>
+	 <form>
+	<center><img src="vestido2.jpg" height="400"><br>
+        <label>¿De que color es el vestido ?</label> </center><br><br>
+        <input type="radio" name="p4" value="negro">Negro con azul <br>
+        <input type="radio" name="p4" value="blanco">Blanco con dorado<br><br>
+	</form>
+<br>
+	<form>
+	<center><img src="zapato.jpg" height="300"><br>
+        <label>¿De que color es el tenis ?</label> </center><br><br>
+        <input type="radio" name="p5" value="verde">Verde azulado<br>
+        <input type="radio" name="p5" value="rosa">Rosa<br><br>
+	</form>
+<br>
+<form> 
+    <center><img src="Luz.jpg" height="250"><br>
+        <label>¿Qué tipo de luz prefieres?</label></center><br><br>
+        <input type="radio" name="p6" value="calida">Calida<br>
+        <input type="radio" name="p6" value="fria">Fria<br>
+        <input type="radio" name="p6" value="Neutra">Neutra<br><br>
+	</form>
+  <br>
+<button type="button" onclick="registrar()">Enviar</button>
+  <div id="grafica"></div>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
